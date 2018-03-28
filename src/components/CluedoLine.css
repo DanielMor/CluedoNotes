@@ -1,0 +1,16 @@
+.CluedoLine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.CluedoLine .title {
+  padding: 5px 0;
+  text-align: center;
+  flex-grow: 1;
+  max-width: 250px;
+}
+
+.answers {
+  display: flex;
+}

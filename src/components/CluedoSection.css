@@ -1,0 +1,16 @@
+.CluedoSection {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #aaa;
+}
+
+.CluedoSection > span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  .CluedoSection > span {
+    font-size: 22px;
+  }
+}
